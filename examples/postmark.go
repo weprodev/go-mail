@@ -15,9 +15,10 @@ package mail
 
 import (
 	"fmt"
-	"github.com/ainsleyclark/go-mail/drivers"
-	"github.com/ainsleyclark/go-mail/mail"
 	"log"
+
+	"github.com/weprodev/go-mail/drivers"
+	"github.com/weprodev/go-mail/mail"
 )
 
 // Postmark example for Go Mail

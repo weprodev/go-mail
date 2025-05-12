@@ -15,7 +15,8 @@ package mail
 
 import (
 	"encoding/base64"
-	"github.com/ainsleyclark/go-mail/internal/mime"
+
+	"github.com/weprodev/go-mail/internal/mime"
 )
 
 // Attachment defines an email attachment for Go Mail.

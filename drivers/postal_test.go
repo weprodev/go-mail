@@ -15,10 +15,11 @@ package drivers
 
 import (
 	"fmt"
-	mocks "github.com/ainsleyclark/go-mail/internal/mocks/client"
-	"github.com/ainsleyclark/go-mail/mail"
 	"log"
 	"net/http"
+
+	mocks "github.com/weprodev/go-mail/internal/mocks/client"
+	"github.com/weprodev/go-mail/mail"
 )
 
 func ExampleNewPostal() {

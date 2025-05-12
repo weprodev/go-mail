@@ -17,12 +17,13 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/ainsleyclark/go-mail/internal/client"
-	"github.com/ainsleyclark/go-mail/internal/httputil"
-	"github.com/ainsleyclark/go-mail/mail"
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/weprodev/go-mail/internal/client"
+	"github.com/weprodev/go-mail/internal/httputil"
+	"github.com/weprodev/go-mail/mail"
 )
 
 // postal represents the entity for sending mail via the

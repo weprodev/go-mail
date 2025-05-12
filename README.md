@@ -2,14 +2,16 @@
 <img height="300" src="res/logos/go-mail.svg?size=new2" alt="Go Mail Logo" />
 
 [![made-with-Go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)](http://golang.org)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ainsleyclark/go-mail)](https://goreportcard.com/report/github.com/ainsleyclark/go-mail)
-[![Test](https://github.com/ainsleyclark/go-mail/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/ainsleyclark/go-mail/actions/workflows/test.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/weprodev/go-mail)](https://goreportcard.com/report/github.com/weprodev/go-mail)
+[![Test](https://github.com/weprodev/go-mail/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/weprodev/go-mail/actions/workflows/test.yml)
 [![codecov](https://codecov.io/gh/ainsleyclark/go-mail/branch/main/graph/badge.svg?token=1ZI9R34CHQ)](https://codecov.io/gh/ainsleyclark/go-mail)
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat)](https://pkg.go.dev/github.com/ainsleyclark/go-mail)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat)](https://pkg.go.dev/github.com/weprodev/go-mail)
 [![Twitter Handle](https://img.shields.io/twitter/follow/ainsleydev)](https://twitter.com/ainsleydev)
 </div>
 
 # 📧 Go Mail
+
+This package forked from [ainsleyclark](https://github.com/ainsleyclark/go-mail) account, as the last update was for 4 years ago, we forked to use and maybe update it a bit. thanks to the maintainers.
 
 A cross-platform mail driver for GoLang. Featuring Mailgun, Postal, Postmark, SendGrid, SparkPost & SMTP.
 
@@ -70,12 +72,12 @@ fmt.Printf("%+v\n", result)
 ## Installation
 
 ```bash
-go get -u github.com/ainsleyclark/go-mail
+go get -u github.com/weprodev/go-mail
 ```
 
 ## Docs
 
-Documentation can be found at the [Go Docs](https://pkg.go.dev/github.com/ainsleyclark/go-mail), but we have included a
+Documentation can be found at the [Go Docs](https://pkg.go.dev/github.com/weprodev/go-mail), but we have included a
 kick-start guide below to get you started.
 
 ### Creating a new client:
@@ -429,10 +431,6 @@ The driver flag can be one of the following:
 - `sendgrid`
 - `smtp`
 - `sparkpost`
-
-## Contributing
-
-We welcome contributors, but please read the [contributing document](CONTRIBUTING.md) before making a pull request.
 
 ## Credits
 

@@ -17,12 +17,13 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/ainsleyclark/go-mail/mail"
 	"mime/multipart"
 	"net/http"
 	"net/smtp"
 	"strconv"
 	"strings"
+
+	"github.com/weprodev/go-mail/mail"
 )
 
 // smtpClient represents the data for sending mail via

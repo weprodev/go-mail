@@ -15,15 +15,16 @@ package drivers
 
 import (
 	"errors"
-	"github.com/ainsleyclark/go-mail/internal/httputil"
-	"github.com/ainsleyclark/go-mail/internal/mocks/client"
-	"github.com/ainsleyclark/go-mail/mail"
-	"github.com/stretchr/testify/mock"
-	"github.com/stretchr/testify/suite"
 	"net/http"
 	"os"
 	"path/filepath"
 	"testing"
+
+	mocks "github.com/ainsleyclark/go-mail/internal/mocks/client"
+	"github.com/stretchr/testify/mock"
+	"github.com/stretchr/testify/suite"
+	"github.com/weprodev/go-mail/internal/httputil"
+	"github.com/weprodev/go-mail/mail"
 )
 
 // DriversTestSuite defines the helper used for mail

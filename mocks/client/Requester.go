@@ -5,8 +5,8 @@ package mocks
 import (
 	context "context"
 
-	httputil "github.com/ainsleyclark/go-mail/internal/httputil"
-	mail "github.com/ainsleyclark/go-mail/mail"
+	httputil "github.com/weprodev/go-mail/internal/httputil"
+	mail "github.com/weprodev/go-mail/mail"
 
 	mock "github.com/stretchr/testify/mock"
 )

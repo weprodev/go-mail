@@ -16,17 +16,18 @@ package client
 import (
 	"bytes"
 	"context"
-	"github.com/ainsleyclark/go-mail/internal/errors"
-	"github.com/ainsleyclark/go-mail/internal/httputil"
-	mocks "github.com/ainsleyclark/go-mail/internal/mocks/httputil"
-	"github.com/ainsleyclark/go-mail/mail"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/mock"
 	"io"
 	"net/http"
 	"net/http/httptest"
 	"net/url"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/mock"
+	"github.com/weprodev/go-mail/internal/errors"
+	"github.com/weprodev/go-mail/internal/httputil"
+	mocks "github.com/weprodev/go-mail/internal/mocks/httputil"
+	"github.com/weprodev/go-mail/mail"
 )
 
 func TestNewClient(t *testing.T) {

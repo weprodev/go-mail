@@ -1,10 +1,11 @@
-module github.com/ainsleyclark/go-mail
+module github.com/weprodev/go-mail
 
-go 1.18
+go 1.24.1
 
 require (
+	github.com/ainsleyclark/go-mail v1.1.1
 	github.com/joho/godotenv v1.4.0
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 )
 
 require (

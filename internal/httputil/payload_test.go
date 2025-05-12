@@ -14,11 +14,12 @@
 package httputil
 
 import (
-	"github.com/ainsleyclark/go-mail/internal/errors"
-	"github.com/stretchr/testify/assert"
 	"io"
 	"mime/multipart"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/weprodev/go-mail/internal/errors"
 )
 
 func TestNewJSONData(t *testing.T) {
